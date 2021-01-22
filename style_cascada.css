@@ -1,0 +1,81 @@
+/*  CSS (Cascading Style Sheet)
+    Cascada , Especifidad y Herencia */
+
+/*  Cascada: cuando dos reglas tienen la misma especificidad, 
+    se aplica la que aparece en último lugar en el CSS. */
+
+h1 {
+    font-size: 25px;
+    color: rgb(241, 241, 91);
+}
+   
+h1 {
+    font-size: 30px;
+    color: #22918b;
+    text-align: center;
+}
+
+
+
+/* Especifidad: La especificidad es el modo que tiene el navegador de decidir qué regla se aplica
+si diversas reglas tienen selectores diferentes pero podrían aplicarse a un mismo elemento.
+Básicamente, la especificidad mide cuán específica es la selección de un selector: 
+    *******  !Important --> Inline --> ID --> class --> Elementos ******* */
+
+/* -->  Con punto es una clase */
+.box {
+    display: block;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align:center;
+}
+
+/* Clase que contiene un !importan */
+.important {
+    background-color:red !important ;
+}
+
+/* --> con # para un ID */
+#unico {
+    background-color: chocolate;
+}
+
+.bg-yellow {
+    background-color:yellow;
+}
+/* Elemento html */
+p {
+    background-color:darkcyan;
+}
+
+/* Herencia: algunos valores de las propiedades CSS que se han establecido para los elementos padre
+los heredan los elementos hijo, pero otros no. */
+
+.centrado {
+     text-align:center;
+}
+.caja-lista {
+    margin: 0px 35% ;
+    display: block;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid black;
+    border-radius: 10px;
+    }
+
+.list-main {
+    font-size: 20px;
+    color:teal
+}
+    
+.sub-list {
+    font-style: italic;
+    font-size: initial;
+    }
+.sub-list2 {
+    font-style: initial;
+    color:initial;    
+}

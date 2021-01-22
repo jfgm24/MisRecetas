@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test CSS - Cascada, Especifidad y Herencia</title>
+    <link rel="stylesheet" href="style_cascada.css">
+</head>
+
+<body>
+<!-- Pruebas de cascada -->
+    <h1>Titulo h1 que Prueba reglas en cascada</h1>
+
+<!-- Pruebas de especifidad -->    
+    <div >
+        <p style="background-color:green;" id="unico" class="box bg-yellow important">
+            Esto es un parrafo para ver el funcionamiento de la especifidad, con Important, Inline, id, Class y Elemento
+        </p>
+    </div>
+    <div >
+        <p style="background-color:green;" id="unico" class="box bg-yellow">
+            Esto es un parrafo para ver el funcionamiento de la especifidad, Inline, id, Class y Elemento
+        </p>
+    </div>
+    <div >
+        <p id="unico" class="box bg-yellow">
+            Esto es un parrafo para ver el funcionamiento de la especifidad, id, Class y Elemento
+        </p>
+    </div>
+    <div >
+        <p class="box bg-yellow">
+            Esto es un parrafo para ver el funcionamiento de la especifidad, Class y Elemento
+        </p>
+    </div>
+    <div >
+        <p class="box">
+            Esto es un parrafo para ver el funcionamiento de la especifidad, con solo Elemento
+        </p>
+    </div>
+
+<!-- Pruebas de Herencia -->
+<h3 class="centrado">Prueba de herencia de atributos - elementos padres a hijos</h3>
+<div class="caja-lista">Lista principal
+<ul class="list-main">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <liv class="sub-list">Item 3 - Sub-lista
+        <ul>
+            <li>Item 3.1
+                <ul class="sub-list2">
+                    <li>Item 3.1.1</li>
+                </ul>
+            </li>
+            <li>Item 3.2</li>
+        </ul>
+    </li>
+</ul>
+</div>
+<footer>
+    <h2 class="box">Footer 2021 ©</h2>
+</footer>
+</body>
+</html>

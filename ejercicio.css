@@ -2,10 +2,8 @@
     background-color: blue;
     width: 500px;
     height: 500px;
-    
-    display: flex;
-    justify-content: flex-start;
-    /* align-items: center ; */
+    display:flex;
+    overflow: auto;
 }
 
 .hijo {
@@ -13,10 +11,5 @@
     border: 2px solid black;
     width: 100px;
     height: 100px;
-
-}
-
-.right {
-    margin-left: auto;
-    
+    flex-shrink: 0;
 }

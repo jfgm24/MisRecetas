@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="style_layout.css">
+</head>
+
+<body>
+    <div class="caja caja1">
+        Caja 1 - position: relative;
+        <div class="hijo1">
+            Hijo 1 - position: absolut;<br>
+            top: 100px;<br>
+            left: 25px;
+
+        </div>
+    </div>
+    <div class="caja caja2">
+        Caja 2 - position: relative;<br>
+        margin-left: 300px;<br>
+        margin-top: -300px;
+        <div class="hijo2">
+            Hijo 2 - position: fixed;<br>
+            top: 175px;<br>
+            left: 250px;<br>
+            z-index:1;
+        </div>
+    </div>
+    <div class="caja caja3">
+        Caja 3 - position: relative;
+        <div class="hijo3">
+            Hijo 3 position: sticky;<br>
+            top: 25px;
+        </div>
+    </div>
+    <div class="caja4">
+
+        <div class="block">Block
+
+            <span class="hijo4">
+                Hijo 4
+            </span>
+
+            <span class="hijo4">
+                Hijo 4
+            </span>
+
+        </div>
+
+        <div class="inline">Inline
+
+            <span class="hijo4">
+                Hijo 4
+            </span>
+
+            <span class="hijo4">
+                Hijo 4
+            </span>
+
+        </div>
+
+        <div class="inline-block">Inline-block
+
+            <span class="hijo4">
+                Hijo 4
+            </span>
+
+            <span class="hijo4">
+                Hijo 4
+            </span>
+
+        </div>
+
+    </div>
+
+        <br><br><br><br><br><br><br><br>
+
+</body>
+
+</html>

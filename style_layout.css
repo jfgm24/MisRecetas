@@ -1,0 +1,106 @@
+* { box-sizing: border-box;}
+.caja {
+    /* background-color: red; */
+    color: white;
+    /* padding: 1em; */
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.caja1 {
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.hijo1{
+    background-color: blue;
+    width: 250px;
+    height: 100px;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 25px;
+    line-height: 1.2em;
+    padding: 10px;
+}
+
+.caja2 {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-left: 300px;
+    margin-top: -300px;
+    line-height: 1.2em; 
+}
+
+.hijo2{
+    background-color: green;
+    width: 250px;
+    height: 100px;
+    border: 2px solid black;
+    position: fixed;
+    top: 175px;
+    left: 250px;    
+    z-index:1;
+    padding: 10px; 
+}
+
+.caja3 {
+    background-color:red;
+    width: 300px;
+    height: 600px;
+    position: relative; 
+}
+
+.hijo3 {
+    background-color: rgb(93, 4, 45);
+    width: 250px;
+    height: 100px;
+    border: 2px solid black;
+    position: sticky;
+    top: 0px;
+    line-height: 1.2em;
+    
+}
+
+.caja4 {
+    background-color: rgb(178, 243, 103);
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+
+.hijo4 {
+    /* border: 2px solid black; */
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    line-height: 25px;
+}
+
+.block {
+    background-color: green;
+    display: block;
+    border: 2px solid black;
+    /* width: 300px; */
+    height: 150px;
+}
+
+.inline {
+    background-color: yellow;
+    display: inline;
+    border: 2px solid black;
+    /* width: 300px; */
+    height: 150px;
+}
+
+.inline-block {
+    background-color: blue;
+    display: inline-block;
+    border: 2px solid black;
+    /* width: 300px; */
+    height: 150px;
+}

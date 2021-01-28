@@ -1,0 +1,11 @@
+.container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.hijo {
+    background-color:rgb(154, 208, 209);
+}

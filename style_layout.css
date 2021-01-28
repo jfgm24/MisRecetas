@@ -1,4 +1,9 @@
 * { box-sizing: border-box;}
+.tituloP {
+    font: size 80px;
+    font-weight: bold;
+    display: inline;
+}
 .caja {
     /* background-color: red; */
     color: white;
@@ -76,31 +81,37 @@
 .hijo4 {
     /* border: 2px solid black; */
     padding: 10px;
-    margin: 10px;
-    width: 300px;
-    line-height: 25px;
+    
+    
+    line-height: 2em;
 }
 
 .block {
     background-color: green;
     display: block;
     border: 2px solid black;
-    /* width: 300px; */
+    
     height: 150px;
+    padding: 10px;
+    
 }
 
 .inline {
     background-color: yellow;
     display: inline;
     border: 2px solid black;
-    /* width: 300px; */
+    
     height: 150px;
+    padding: 10px;
+    
 }
 
 .inline-block {
     background-color: blue;
     display: inline-block;
     border: 2px solid black;
-    /* width: 300px; */
+    
     height: 150px;
+    padding: 10px;
+    
 }

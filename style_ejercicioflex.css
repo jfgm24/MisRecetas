@@ -1,0 +1,23 @@
+* {box-sizing: border-box;}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+    background-color: yellow;
+    height: 200px;
+    display: flex;
+}
+
+section {
+    background-color: red;
+    width:70%;
+    flex-shrink: 5;
+}
+
+aside {
+    background-color: blue;
+    width: 300px;
+    flex-shrink: 0;
+}

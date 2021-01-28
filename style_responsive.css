@@ -1,11 +1,44 @@
-.container {
-    background-color: #fff;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1em;
+* {
+    box-sizing: border-box;
 }
 
-.hijo {
-    background-color:rgb(154, 208, 209);
+.container {
+    background-color: rgb(106, 113, 174);
+    width: 100%;
+    max-width: 1980px;
+    margin: auto;
+    padding: 0 1em;
+    font-size: 1.4em;
 }
+
+/* @media (min-width: 600px) and (max-width: 800px) {
+    .container { background-color:#fff;}
+}
+
+@media (max-width: 599px) {
+    .container { font-size: 1em;}
+} */
+.hijo {
+    background-color: rgb(154, 208, 209);
+    width: 70%;
+}
+
+.primo {
+    background-color: green;
+    /* width: calc(30% - 10px); */
+    width: 29%;
+    margin-left: 1%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.imagen img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    object-position:center;
+}
+

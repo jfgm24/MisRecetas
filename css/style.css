@@ -8,12 +8,6 @@
 @import 'header.css';
 @import 'heading.css';
 @import 'utils.css';
+@import 'link.css';
 @import 'footer.css';
 
-#nav-main > a:hover {
-    text-decoration: underline;
-}
-
-#nav-main > span {
-    color:grey ;
-}

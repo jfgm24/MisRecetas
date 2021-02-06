@@ -1,1 +1,19 @@
 /* css principal de Mis Recetas */
+@import 'reset.css';
+@import 'basic.css';
+@import 'grid-12.css';
+@import 'layout.css';
+@import 'text.css';
+@import 'image.css';
+@import 'header.css';
+@import 'heading.css';
+@import 'utils.css';
+@import 'footer.css';
+
+#nav-main > a:hover {
+    text-decoration: underline;
+}
+
+#nav-main > span {
+    color:grey ;
+}
